@@ -1,0 +1,23 @@
+{
+  "name": "belivemediaweb",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize.css": "^8.0.1",
+    "flickity": "^2.1.2",
+    "aos": "^2.3.4"
+  },
+  "overrides": {
+    "normalize.css": {
+      "main": [
+        "normalize.css"
+      ]
+    },
+    "flickity": {
+      "main": [
+        "dist/flickity.css",
+        "dist/flickity.pkgd.js"
+      ]
+    }
+  }
+}
